@@ -34,17 +34,12 @@ public class wxInfoPhone {
         try {
             List list = new ArrayList();
             List lists = new ArrayList();
-            String sql="select * from peopleinfo LEFT JOIN confirmestart ON peopleinfo.id=confirmestart.id UNION ALL SELECT * FROM peopleinfo RIGHT JOIN confirmestart ON peopleinfo.id=confirmestart.id WHERE peopleinfo.id IS NULL";
+//            String sql="select * from peopleinfo LEFT JOIN confirmestart ON peopleinfo.id=confirmestart.id UNION ALL SELECT * FROM peopleinfo RIGHT JOIN confirmestart ON peopleinfo.id=confirmestart.id WHERE peopleinfo.id IS NULL";
+            String sql="select * from peopleinfo  LEFT JOIN confirmestart ON peopleinfo.id=confirmestart.id WHERE phone_user =" + phone;
 
             Object[] args ={};
             list = jdbcTemplate.queryForList(sql,args);
 
-            for (int i=0;i<list.size();i++){
-
-            }
-//            for (int i : anInt){
-//
-//            }
 
 
             User user=new User();
