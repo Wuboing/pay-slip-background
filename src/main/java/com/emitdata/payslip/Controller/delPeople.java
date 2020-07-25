@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Controller
-@RequestMapping("/people")
+@RequestMapping("/pay/people")
 public class delPeople {
     Integer mobile;
 

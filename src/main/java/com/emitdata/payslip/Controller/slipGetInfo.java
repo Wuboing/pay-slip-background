@@ -17,7 +17,7 @@ import java.util.List;
 
 
 @Controller
-@RequestMapping("/payslip")
+@RequestMapping("/pay/payslip")
 public class slipGetInfo {
     String mobile;
 

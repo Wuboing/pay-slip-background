@@ -17,7 +17,7 @@ import java.util.List;
 
 
 @Controller
-@RequestMapping("/wxinfo")
+@RequestMapping("/pay/wxinfo")
 public class wxCheck {
     String mobile;
 

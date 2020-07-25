@@ -22,7 +22,7 @@ import java.util.Map;
 
 
 @Controller
-@RequestMapping("/people")
+@RequestMapping("/pay/people")
 public class demandPeople {
     String mobile;
 

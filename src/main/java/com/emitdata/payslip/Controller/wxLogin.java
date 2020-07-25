@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Controller
-@RequestMapping("/wxlogin")
+@RequestMapping("/pay/wxlogin")
 public class wxLogin {
     String mobile;
     String mobiles;

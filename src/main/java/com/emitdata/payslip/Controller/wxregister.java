@@ -17,7 +17,7 @@ import java.io.IOException;
 
 
 @Controller
-@RequestMapping("/register")
+@RequestMapping("/pay/register")
 public class wxregister {
     String mobile;
 

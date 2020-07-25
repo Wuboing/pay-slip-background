@@ -16,7 +16,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 @Controller
-@RequestMapping("/people")
+@RequestMapping("/pay/people")
 public class UserInforma {
     String mobile;
 

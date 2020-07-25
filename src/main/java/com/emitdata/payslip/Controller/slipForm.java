@@ -17,7 +17,7 @@ import java.io.IOException;
 
 
 @Controller
-@RequestMapping("/payslip")
+@RequestMapping("/pay/payslip")
 public class slipForm {
     String mobile;
     Integer ids;

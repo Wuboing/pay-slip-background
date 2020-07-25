@@ -17,7 +17,7 @@ import java.util.List;
 
 
 @Controller
-@RequestMapping("/wxapp")
+@RequestMapping("/pay/wxapp")
 public class wxPCmanage {
     String mobile;
 

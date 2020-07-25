@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.Random;
 
 @Controller
-@RequestMapping("/login")
+@RequestMapping("/pay/login")
 public class UserLogin {
     String mobile;
 

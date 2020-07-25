@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@RequestMapping("/wxlist")
+@RequestMapping("/pay/wxlist")
 public class wxInfoPhone {
     String mobile;
 

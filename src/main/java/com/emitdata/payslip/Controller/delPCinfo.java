@@ -15,7 +15,7 @@ import java.io.IOException;
 
 
 @Controller
-@RequestMapping("/wxapp")
+@RequestMapping("/pay/wxapp")
 public class delPCinfo {
     Integer mobile;
 

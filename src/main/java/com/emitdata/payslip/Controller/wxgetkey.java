@@ -25,7 +25,7 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-@RequestMapping("/login")
+@RequestMapping("/pay/login")
 public class wxgetkey {
     @Value("${weixin.app_id}") // spring配置文件配置了appID
     public String appId;
